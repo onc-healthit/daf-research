@@ -2,8 +2,8 @@
 
 This is the DAF-Research RI prototype for C1 capability.
 
-Implementation Guide can be found at : http://hl7.org/fhir/us/daf-research/STU2/index.html 
-Implementation Guidance can be found at : http://hl7.org/fhir/us/daf-research/STU2/guidance.html 
+* Implementation Guide can be found at : http://hl7.org/fhir/us/daf-research/STU2/index.html 
+* Implementation Guidance can be found at : http://hl7.org/fhir/us/daf-research/STU2/guidance.html 
 
 Steps to recreate the project and run it:
 
@@ -23,11 +23,11 @@ a. Connect to the database using instructions below and verify the C1 capability
 
 Note: The PCORnetDB is present in C:\Temp, if not it is easier if you are in the directory where the DB is present before you execute this command.
 
-C:\Temp>%DERBY_INSTALL%\bin\ij  
-connect 'jdbc:derby:PCORnetDB';
-select * from demographic;
-select * from condition;
-select * from task;
+* C:\Temp>%DERBY_INSTALL%\bin\ij  
+* connect 'jdbc:derby:PCORnetDB';
+* select * from demographic;
+* select * from condition;
+* select * from task;
 
 
 DERBY INSTALLATION INSTRUCTIONS

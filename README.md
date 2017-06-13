@@ -20,9 +20,11 @@ Steps to recreate the project and run it:
 
 5. Inspecting the database: To inspect the database, if you have not installed derby please follow derby installation instruction below.
 
-* Connect to the database using instructions below and verify the C1 capability by executing select statements. 
+* Connect to the database using verification instructions below and verify the C1 capability by executing select statements. 
 
 Note: The PCORnetDB is present in C:\Temp, if not it is easier if you are in the directory where the DB is present before you execute this command.
+
+Verification Instructions:
 
 * C:\Temp>%DERBY_INSTALL%\bin\ij  
 * connect 'jdbc:derby:PCORnetDB';

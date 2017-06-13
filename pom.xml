@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.drajer</groupId>
-  <artifactId>daf-research-ri</artifactId>
+  <artifactId>daf-research</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>fhir-client</name>
+  <name>daf-research</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -57,7 +57,7 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.drajer.client.MainClient</mainClass>
+									<mainClass>org.sitenv.client.MainClient</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>

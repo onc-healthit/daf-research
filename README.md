@@ -5,10 +5,9 @@ This is the DAF-Research RI prototype for C1 capability.
 * Implementation Guide can be found at : http://hl7.org/fhir/us/daf-research/STU2/index.html 
 * Implementation Guidance can be found at : http://hl7.org/fhir/us/daf-research/STU2/guidance.html 
 
-Steps to recreate the project and run it:
+Steps to instantiate (pull) the project and run it:
 
-1. Use your IDE (Tested with Eclipse) and import the Maven Project using the pom.xml. 
-(If you are using git, then do a git clone/pull and then import the project into your workspace).
+1. Use Git pull/clone and import the project into your IDE/workspace.
 2. Do a Maven Clean. (mvn clean)
 3. Do a Maven install. (mvn install)
 4. The Maven Install command will produce a JAR file.

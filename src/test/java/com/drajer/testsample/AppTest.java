@@ -1,4 +1,6 @@
-package com.drajer.fhir_client;
+package com.drajer.testsample;
+
+import org.sitenv.client.MainClient;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

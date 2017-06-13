@@ -15,11 +15,12 @@ Steps to recreate the project and run it:
 
 4. Running the Project.
 
-a. Use a command line interface and type "java -jar daf-research-0.0.1-SNAPSHOT.jar -s site"
-b. The system will run and will create a database called PCORnetDB in C:\\Temp
+* Use a command line interface and type "java -jar daf-research-0.0.1-SNAPSHOT.jar -s site"
+* The system will run and will create a database called PCORnetDB in C:\\Temp
 
 5. Inspecting the database: To inspect the database, if you have not installed derby please follow derby installation instruction below.
-a. Connect to the database using instructions below and verify the C1 capability by executing select statements. 
+
+* Connect to the database using instructions below and verify the C1 capability by executing select statements. 
 
 Note: The PCORnetDB is present in C:\Temp, if not it is easier if you are in the directory where the DB is present before you execute this command.
 
